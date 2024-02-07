@@ -1,0 +1,69 @@
+
+body{
+    background:lightblue;
+}
+
+form {
+   background: linear-gradient(to right, rgb(150, 15, 222), violet);
+    width: 500px;
+    border-radius: 25px;
+    height: 400px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 50px auto 50px;
+
+}
+
+form h1 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+label {
+    color: rgb(29, 30, 31);
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 450px;
+    height: 30px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    height: 50px;
+}
+
+#buttons-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    flex-grow: 1;
+    width: 125px;
+    margin: 25px;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    font-size: 20px;
+}
+
+button#send {
+    background-color: rgb(20, 239, 45);
+    color: white;
+}
+
+button#reset {
+    background-color: rgb(229, 6, 6);
+    color: black;
+}
+
